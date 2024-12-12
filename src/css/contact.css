@@ -1,0 +1,80 @@
+.contact{
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+    padding: 32px 10%;
+    z-index: 900;
+    position: relative;
+    min-height: 674px;
+    transition: .5s ease;
+}
+.contact-left, .contact-right{
+    width: 49%;
+    height: 100%;
+    transition: .5s ease;
+}
+.contact-img, .contact-info{
+    width: 100%;
+    transition: .5s ease;
+}
+.model{
+    height: 100%;
+    width: 100%;
+}
+.contact-img{
+    margin-bottom: 2vh;
+    height: 100%;
+}
+.contact-img img{
+    height: 400px;
+    width: fit-content;
+}
+.touch{
+    font-size: 16px;
+    font-weight: 600;
+    transition: .5s ease;
+    color: rgb(73, 183, 223);
+}
+.chat{
+    font-size: 32px;
+    font-weight: 600;
+    transition: .5s ease;
+}
+.form-control{
+    border: none !important;
+    border-radius: 10px;
+}
+.form-control-2{
+    border: none !important;
+    border-radius: 0px !important;
+    border-bottom: 2px solid rgb(73, 183, 223) !important;
+}
+textarea{
+    max-height: 200px !important;
+    min-height: 150px !important;
+}
+.form-label{
+    font-weight: 500;
+}
+.contact-info{
+    height: 100%;
+}
+.email, .mobile{
+    background-color: white;
+    width: 95%;
+}
+.link{
+    color: #212529;
+}
+.submit-btn{
+    cursor: default;
+}
+.mobile-model{
+    display: none;
+}
+
+@media screen and (min-width:600px) and (max-width:1400px) {
+  .contact{
+    padding: 32px 5%;
+  }
+}

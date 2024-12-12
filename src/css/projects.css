@@ -1,0 +1,116 @@
+.projects {
+    overflow: hidden;
+}
+
+.project-wrapper{
+    width: 100vw;
+}
+
+.project-card {
+    position: relative;
+    overflow: hidden;
+    width: 80vw;
+    transition: .5s ease;
+    border-radius: 32px;
+    /* background-color: whitesmoke; */
+    /* box-shadow: rgba(0, 0, 0, 0.05) 0px -3px 0px 0px inset, rgb(255, 255, 255) 0px 0px 0px 2px inset, rgba(0, 0, 0, 0.06) 0px 4px 2px 0px inset, rgba(0, 0, 0, 0.04) 0px 0px 24px 4px inset, rgba(0, 0, 0, 0.12) 0px 1px 3px 0px; */
+}
+
+.project-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: opacity 0.5s ease;
+    opacity: 0;
+    z-index: 90;
+    border-radius: 32px;
+    /* box-shadow: rgba(0, 0, 0, 0.05) 0px -3px 0px 0px inset, rgb(255, 255, 255) 0px 0px 0px 2px inset, rgba(0, 0, 0, 0.06) 0px 4px 2px 0px inset, rgba(0, 0, 0, 0.04) 0px 0px 24px 4px inset, rgba(0, 0, 0, 0.12) 0px 1px 3px 0px; */
+}
+
+.project-card:hover::before {
+    opacity: 1;
+}
+
+.project-left {
+    width: 30%;
+    z-index: 100;
+}
+
+.project-right{
+    z-index: 100;
+}
+
+.project-img {
+    width: 54vw;
+    border-radius: 22px;
+    /* border: 1px solid rgba(255, 255, 255, 0.559); */
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.project-name {
+    font-size: larger;
+    font-weight: 600;
+}
+
+.project-desc {
+    font-size: medium;
+}
+
+.project-button {
+    font-weight: 500;
+    font-size: large;
+    width: 100%;
+    transition: .5s ease;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px -3px 0px 0px inset, rgb(255, 255, 255) 0px 0px 0px 2px inset, rgba(0, 0, 0, 0.06) 0px 4px 2px 0px inset, rgba(0, 0, 0, 0.04) 0px 0px 24px 4px inset, rgba(0, 0, 0, 0.12) 0px 1px 3px 0px;
+}
+
+.project-button:hover{
+    transition: .5s ease;
+    box-shadow: rgba(118, 155, 215, 0.5) 0px -32px 32px 0px inset, rgb(255, 255, 255) 0px 0px 0px 2px inset, rgba(0, 0, 0, 0.06) 0px 4px 2px 0px inset, rgba(0, 0, 0, 0.04) 0px 0px 24px 4px inset, rgba(0, 0, 0, 0.12) 0px 1px 3px 0px;
+}
+
+.work-project {
+    height: 100vh;
+    width: 100vw;
+}
+
+.project-1 {
+    z-index: 100;
+}
+
+.project-2 {
+    z-index: 120;
+}
+
+.project-3 {
+    z-index: 130;
+}
+
+.project-4 {
+    z-index: 140;
+}
+
+.project-5 {
+    z-index: 131;
+}
+
+.main-middle {
+    font-size: 130px;
+    font-weight: 700;
+    line-height: 95px;
+    padding: 0px 10px;
+}
+
+.main-left,
+.main-right,
+.main-bottom {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.main-bottom {
+    padding: 40px 12px;
+}
